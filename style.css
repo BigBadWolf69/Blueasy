@@ -1,0 +1,943 @@
+     .mobile{
+        display: none;
+    }
+
+
+
+
+
+
+
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden ;
+    }
+
+    .desktop{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;  
+    }
+
+    .desktop a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    }
+
+    .desktop img{
+        width: 75px;
+        height: 15px;
+    }
+
+    .desktop a:hover{
+        border: 1px solid #4BCAFF;
+        color: #4BCAFF;
+    }
+
+    header{
+        padding: 0px 10px;
+        height: 50px;
+        background-color: #2c373eaf;
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tout{
+        position:fixed;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .cross img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu{
+        position: fixed;
+        z-index: 1000;
+        top: 50px;
+        background-color: #2c373eaf;
+        width: 200px;
+    }
+
+    .menu ul{
+        list-style-type: none;
+    }
+
+    .menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 32px;
+        padding: 10px;
+    }
+
+    .menu a:hover{
+        color: #4BCAFF
+    }
+
+    section{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-levrai{
+        margin-right: 20px;
+        width: 150px;
+        height: 30px;
+    }
+        
+    .texte1{
+        display: inline-block;
+        position: absolute;
+        left: auto;
+        top: 175px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: white;
+        background-color: #2c373eaf;
+        max-width: 70%;
+        padding: 10px;
+    }
+
+    .texte2{
+        display: inline-block;
+        position: absolute;
+        left: auto;
+        top: 250px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: white;
+        background-color: #2c373eaf;
+        max-width: 70%;
+        padding: 10px;
+
+    }
+
+    main{
+        background-color: #4BCAFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+
+    .body{
+        background-image: url("img/header-1.png");
+
+    }
+
+    .titre, .sous_titre{
+        font-size: 24px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .titre span{
+        text-decoration: underline;
+    }
+
+    .titre{
+        margin-left: 10%;
+        height: 20px;
+        padding: 30px 20px;
+    }
+
+    .sous_titre{
+        margin-top: 15px;
+    }
+
+    .article{
+        color: white;
+        max-width: 250px;
+        font-size: 14px;
+        font-family: sans-serif;
+        margin: 1%;
+    }
+
+    article img{
+        width: 30px;
+        height: auto;
+    }
+
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+
+    .mobile{
+        display: flex;
+    }
+
+
+    .desktop{
+        display: none;
+    }
+
+
+}
+
+
+@media (max-width: 650px){
+
+    .article{
+        max-width: 450px;
+        font-size: 18px;
+    }
+    
+
+}
+
+/*--------------------------------------------INTEGRATION KIMBELE------------------------------------------------------------------------*/
+.KIMBELE{
+    padding:0px;
+    margin:0px;
+}
+
+.KIMBELE .justcase{
+    width: 100%!important;
+}
+.KIMBELE .img9{
+
+    margin: -40px 300px 0px 0px!important;
+}
+/*------------------------------------------FIN D'INTEGRATION KIMBELE------------------------------------------------------------------*/
+
+
+
+.partie1{
+    background: white;
+    width: 100%;
+    /* border: 1px  solid black; */
+    font-family: 'Segoe UI','sans serif';
+    padding-bottom: 20px;
+
+
+}
+
+
+.ALL1{
+display: flex;
+justify-content: space-around;
+float: right;
+width : 700px;
+padding-top: 25px;
+
+}
+.Portfolio{
+margin-top: 100px;
+margin-left: 25px;
+border-bottom: 1px solid black;
+width: 18px;
+
+}
+
+
+.ALL{
+    border: 3px solid skyblue;
+padding: 1px;
+   margin-top: -3px;
+
+ }
+/* .PANORAMA{
+   
+}
+
+.PORTRAITS{
+   
+}
+
+.MACRO{
+
+
+}
+
+.JOURNAL{
+
+
+} */
+
+.images{
+    
+display: flex;
+flex-flow:wrap ;
+padding-left: 25px;
+padding-top: 90px;
+
+}
+
+.img1{
+margin-right: 50px;
+width: 250px;
+
+}
+
+.img2{
+margin-right: 50px;
+width: 250px;
+
+
+}
+.img3{
+    margin-right: 50px;
+    width: 250px;
+
+
+}
+.img4{
+    
+    width: 250px;
+
+
+
+
+}
+.img5{
+    margin-right: 50px;
+    width: 250px;
+    margin-top:20px;
+
+}
+
+.img6{
+    margin-right: 50px;
+    width: 250px;
+    margin-top:20px;
+
+
+}
+
+.img7{
+    margin-right: 50px;
+    width: 250px;
+    margin-top:20px;
+
+
+}
+.img8{
+  
+    width: 250px;
+    margin-top:20px;
+}
+
+.justcase{
+    background: #515F67;
+    width: 130%;
+    /* border: 1px  solid black; */
+    font-family: 'Segoe UI', 'sans serif';
+    color: white;
+ }
+
+
+.Just{
+margin-left: 70px;
+font-size: 25px;
+}
+.img9{
+float: right;
+margin-right: 900px;
+
+
+}
+
+
+span{
+    text-decoration:underline ;
+
+}
+
+.bear{
+margin-left:70px ;
+font-size: 10px;
+
+
+}
+.Visit{
+color: #39444B;
+    border: 2px solid#39444B;
+   width: 100px;
+   padding-left: 30px;
+margin-left: 70px;
+font-size: 17px;
+
+}
+
+.twitter{
+    background: #4BCAFF;
+    width: 100%;
+     border-bottom: 1px  solid black;
+    font-family: 'Segoe UI', 'sans serif';
+    color: white;
+
+
+}
+
+.Twitter{
+margin-left: 70px;
+padding-top: 50px ;
+font-size: 25px;
+
+
+}
+.logo{
+margin-left: 38%;
+margin-top:-40px;
+
+
+
+
+}
+.Text{
+    margin-left: 70px;
+    margin-top: 50px;
+
+
+}
+
+.tootsie{
+    margin-top:-43px;
+margin-left: 169px;
+
+
+}
+ .ALL:hover, .PANORAMA:hover, .PORTRAITS:hover, .MACRO:hover , .JOURNAL:hover{
+    border: 3px solid skyblue;
+    padding: 1px;
+    cursor: pointer;
+
+
+
+
+ }
+ .Visit:hover{
+    border: 2px solid white;
+   
+    cursor: pointer;
+
+ }
+
+ /* responsive */
+
+ @media(max-width:600px) {
+
+    .partie1{
+        background: white;
+        width: 100%;
+        /* border: 1px  solid black; */
+        font-family: 'Segoe UI','sans serif';
+        padding-bottom: 20px;
+    
+    
+    }
+    
+    
+    .ALL1{
+    display: flex;
+    justify-content:space-around;
+    /* float: right; */
+    width : 476px;
+    padding-top: 25px;
+ 
+    
+    
+    }
+    .Portfolio{
+    margin-top: 100px;
+    margin-left: 190px;
+    border-bottom: 1px solid black;
+    width: 18px;
+    
+    
+    }
+    
+    
+    .ALL{
+        border: 3px solid skyblue;
+    padding: 1px;
+       margin-top: -3px;
+    
+     }
+     .images{
+    
+        display: flex;
+        flex-flow:wrap ;
+        padding-left: 95px;
+        padding-top: 90px;
+        justify-content:space-between ;
+        }
+        
+        .img1{
+        margin-right: 50px;
+        width: 100px;
+        margin-top:20px;
+        }
+        
+        .img2{
+        margin-right: 50px;
+        width: 250px;
+        margin-top:20px;
+        
+        }
+        .img3{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        }
+        .img4{
+            margin-top:20px;
+            width: 250px;
+        
+        
+        
+        
+        }
+        .img5{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        }
+        
+        .img6{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        
+        }
+        
+        .img7{
+            margin-right: 50px;
+            width: 250px;
+            margin-top:20px;
+        
+        
+        }
+        .img8{
+          
+            width: 250px;
+            margin-top:20px;
+        }
+        
+        .justcase{
+            background: #515F67;
+            width: 100%;
+            height: -20%;
+            /* border: 1px  solid black; */
+            font-family: 'Segoe UI', 'sans serif';
+            color: white;
+         }
+        
+        
+        .Just{
+        margin-left: 30px;
+        font-size: 25px;
+        margin-top: -35px;
+        }
+        .img9{
+        float: left;
+        margin-right: 900px;
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 29px;
+        margin-bottom: 25px;
+        
+        
+        }
+        
+        
+        span{
+            text-decoration:underline ;
+        
+        }
+        
+        .bear{
+        margin-left:30px ;
+        font-size: 9px;
+        padding-bottom: 20%;
+        padding-right: 5px;
+        
+        }
+        .Visit{
+        color: #39444B;
+            border: 2px solid#39444B;
+           width: 100px;
+           padding-left: 30px;
+        margin-left: 30px;
+        font-size: 17px;
+        margin-top: -90px;
+        
+        }
+        
+        .twitter{
+            background: #4BCAFF;
+            width: 100%;
+             border-bottom: 1px  solid black;
+            font-family: 'Segoe UI', 'sans serif';
+            color: white;
+
+        
+        }
+        
+        .Twitter{
+        margin-left: 30px;
+        padding-top: 50px ;
+        font-size: 25px;
+        
+        
+        }
+        .logo{
+        margin-left: 25%;
+        margin-top:-43px;
+       
+        
+        
+        
+        
+        }
+        .Text{
+            margin-left: 70px;
+            margin-top: 50px;
+        
+        
+        }
+        
+        .tootsie{
+            margin-top:-43px;
+        margin-left: 169px;
+        
+        
+        }
+         .ALL:hover, .PANORAMA:hover, .PORTRAITS:hover, .MACRO:hover , .JOURNAL:hover{
+            border: 3px solid skyblue;
+            padding: 1px;
+            cursor: pointer;
+        
+        
+        
+        
+         }
+         .Visit:hover{
+            border: 2px solid white;
+           
+            cursor: pointer;
+        
+         }
+
+
+
+
+
+ }
+
+ /*--------------------------------------------INTEGRATION THIEBAUT------------------------------------------------------------------------*/
+.THIETBAUT{
+  padding:0px;
+  margin:0px;
+}
+
+
+
+/*------------------------------------------FIN D'INTEGRATION THIEBAUT------------------------------------------------------------------*/
+
+.john{
+    background-image: url(Images_projet/bgphoto.png);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: justify; 
+    padding-bottom: 4%;
+    margin:0;
+}
+.textejohn{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logojohn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* / testimonal / */
+
+.testimonial{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.testgui{
+    display: flex;
+    justify-content: space-between;
+}
+.testitre{
+    color: gray;
+}
+.textetest{
+    color: gray;
+    text-align: justify; 
+}
+.textebleu{
+    color: rgb(1, 148, 148);
+}
+
+/* / contact / */
+
+.contact{
+    background-image: url(Images_projet/fond_img_contact.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: justify; 
+    padding-bottom:3vh;
+}
+#FULL-NAME{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 4vh;
+}
+#EMAIL{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 4vh;
+}
+button:active{
+    height: 5vh;
+    width: 342px;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #2b7696;
+    border-style: hidden;
+    background:#4bcaff ;
+
+}
+
+button{
+    height: 5vh;
+    width: 342px;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+  
+    border-style: hidden;
+    background:#4bcaff ;
+}
+
+#Text{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 10vh;
+}
+.name{
+    padding-bottom: 2%;
+}
+.email{
+    padding-bottom: 2%;
+}
+.message{
+    padding-bottom: 2%;
+}
+.contactexte{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.responsive{
+    display: none;
+    /* visibility: hidden; */
+}
+/* / footer */
+
+footer{
+    background-color: rgba(53, 63, 71, 1);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+    padding-top: 4%;
+}
+.home{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+@media (min-width: 950px){
+
+.john{
+    background-image: url(Images_projet/bgphoto.png);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: justify; 
+    padding-bottom: 4%;
+    margin:0;
+}
+.textejohn{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.logojohn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* testimonal */
+
+.testimonial{
+    background-color: rgb(255, 255, 255);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.testgui{
+    display: flex;
+    justify-content: space-between;
+}
+.testitre{
+    color: gray;
+}
+.textetest{
+    color: gray;
+    text-align: justify; 
+}
+.textebleu{
+    color: rgb(1, 148, 148);
+}
+
+/* contact */
+
+.contact{
+    background-image: url(Images_projet/fond_img_contact.jpg);
+    background-size: cover;
+    width: 100%;
+    color: white;
+    text-align: justify; 
+    padding-bottom:3vh;
+}
+.contactexte{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: none;
+}
+.responsive{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+}
+.textenoir{
+    width: 50%;
+}
+#FULL-NAME{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 150%;
+    height: 6vh;
+}
+#EMAIL{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 150%;
+    height: 6vh;
+}
+
+/* .button{
+    height: 5vh;
+    border: 1px solid #00fff2;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    background-color:#00fff2 ;
+    float: center;
+} */
+#Text{
+    background-color: transparent;
+    border: solid 1px white;
+    width: 100%;
+    height: 10vh;
+}
+.alignement{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    padding-bottom: 10%;
+}
+.email{
+    padding-bottom: 10%;
+}
+.message{
+    padding-bottom: 2%;
+}
+/* footer */
+
+footer{
+    background-color: rgba(53, 63, 71, 1);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 10vh;
+    padding-top: 4%;
+}
+.home{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+}
+
+@media (max-width: 650px){
+
+button:active{
+    height: 5vh;
+    width: 79vw;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 2px 2px 2px #2b7696;
+    border-style: hidden;
+    background:#4bcaff ;
+}
+
+button{
+    height: 5vh;
+    width: 79vw;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    border-style: hidden;
+    background:#4bcaff ;
+}
+
+}
